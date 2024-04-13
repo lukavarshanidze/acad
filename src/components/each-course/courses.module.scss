@@ -1,0 +1,130 @@
+.container {
+    background-color: rgba(147, 143, 173, 0.021);
+}
+
+.sub_container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.heading {
+    background-color: white;
+}
+
+.course_name {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.you_will_learn {
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    margin: 0 auto;
+}
+
+.you_will_learn ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 720px;
+    gap: 20px;
+}
+
+.you_will_learn h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.you_will_learn ul li {
+    font-size: 14px;
+    width: 100%;
+    max-width: 313px;
+    color: #2d2f31;
+    font-weight: bold;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.youdo_each_element{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 48%;
+}
+
+.youdo_each_element li {
+}
+
+.youdo_each_element img {
+    width: 13px;
+}
+
+.show_more_container {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.show_more_container img {
+    width: 25px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.show_more {
+    height: 400px;
+    overflow: hidden;
+}
+
+.requirements {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.shortDesc {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.requirements ul, .shortDesc {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-weight: 500;
+}
+
+.requirements h2 {
+    margin-bottom: 20px;
+}
+.requirements ul li{
+    list-style-type: inherit;
+}
+
+.shortDesc {
+   margin-top: 30px;
+   padding-bottom: 40px;
+}
+
+.shortDesc h3, .requirements h2 {
+    font-size: 28px;
+}
+
+.shortDesc h3 {
+    margin-bottom: 10px;
+}
+
+.shortDesc p {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
