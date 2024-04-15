@@ -9,10 +9,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <div className="row">
-            <Heading
-              subtitle=""
-              title="მიიღე სწორი გადაწყვეტილება წარმატების მისაღწევად"
-            />
+            <h1>მიიღე სწორი გადაწყვეტილება წარმატების მისაღწევად</h1>
             <p>წარმატებასთან რამოდენიმე ნაბიჯი გაშორებს</p>
             <div className="button">
               <Link to="/courses">

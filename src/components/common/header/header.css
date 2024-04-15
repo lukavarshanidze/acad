@@ -3,7 +3,8 @@
   padding: 20px 0;
   color: #fff;
 }
-header, .head {
+header,
+.head {
   z-index: 2;
   position: relative;
   left: 0;
@@ -25,7 +26,6 @@ header {
   border: 1px solid #00000062;
   background-color: #ffffffad;
   border-radius: 6px;
-
 }
 header .nav {
   display: flex !important;
@@ -56,7 +56,7 @@ header ul li a:hover {
   display: none;
 }
 /*--------header------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1068px) {
   .start {
     clip-path: none;
   }
@@ -68,8 +68,19 @@ header ul li a:hover {
   header ul.flexSB {
     display: none;
   }
+  .main_header_container ul li a:hover {
+    color: black;
+  }
+  .main_header_container ul li a {
+    color: rgb(255, 255, 255);
+  }
   header ul li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: white !important;
+  }
+
+  header ul li:hover {
+    color: white !important;
   }
   .toggle {
     display: block;
@@ -79,6 +90,7 @@ header ul li a:hover {
     position: absolute;
     right: 0;
     top: -20px;
+    background-color: #21302f63;
   }
   .mobile_nav {
     position: absolute;
@@ -87,4 +99,22 @@ header ul li a:hover {
     width: 100%;
     background-color: #1eb2a6;
   }
+
+  .toggle_men {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .toggle_men span {
+    width: 30px;
+    height: 6px;
+    background-color: white;
+  }
+  .toggle {
+  }
+  
 }
+
+

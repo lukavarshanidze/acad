@@ -23,7 +23,6 @@
   transition: 0.5s;
 }
 
-
 .aboutHome .items .flexSB {
 }
 
@@ -79,7 +78,36 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+.aboutHome .right h2 {
+  width: 100%;
+  font-size: 20px;
+}
+.aboutHome {
+  margin-top: 40px;
+}
 /*----------awrapper------------*/
+
+@media screen and (max-width: 1068px) {
+  .aboutHome .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .aboutHome .right .item img{
+    width: 42px;
+    height: 42px;
+  }
+
+  .aboutHome .right .item .text p {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
   .aboutHome .container {
     flex-direction: column-reverse;
@@ -89,5 +117,40 @@
   }
   .awrapper {
     height: 50vh;
+  }
+
+  .aboutHome .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    padding: 0;
+  }
+
+  .aboutHome .items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aboutHome .right .item {
+  }
+  .aboutHome .right .item img{
+    width: 32px;
+    height: 32px;
+  }
+
+  .aboutHome .right .item .text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .aboutHome .right h2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: -60px;
+  }
+
+  .aboutHome .container .left img {
+    display: none;
   }
 }

@@ -48,126 +48,126 @@ export const awrapper = [
   },
 ]
 export const coursesCard = [
-  {
-    id: 1,
-    cover: "../images/courses/c1.png",
-    coursesName: "Front-End დეველოპმენტი",
-    courTeacher: [
-      {
-        cover: "./images/back.webp",
-        name: "მენტორი: ლუკა ვარშანიძე",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "799 ლარი სრული კურსი",
-    duration: "6 თვე",
-    path: 'Front-End-დეველოპმენტი'
-  },
-  {
-    id: 2,
-    cover: "../images/courses/c2.png",
-    coursesName: "Back-End დეველოპმენტი",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Ram Gurung",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "699 ლარი სრული კურსი",
-    duration: "3 თვე",
-    path: "Back-End-დეველოპმენტი"
-  },
-  {
-    id: 3,
-    cover: "../images/courses/c3.png",
-    coursesName: "Javascript",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "699 ლარი სრული კურსი",
-    duration: "3 თვე",
-    path: "Javascript"
-  },
-  {
-    id: 4,
-    cover: "../images/courses/c4.png",
-    coursesName: "C# .Net დეველოპმენტი",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "899 ლარი სრული კურსი",
-    duration: "6 თვე",
-    path: "C#-.Net-დეველოპმენტი"
-  },
-  {
-    id: 5,
-    cover: "../images/courses/c5.png",
-    coursesName: "Python",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "699 ლარი სრული კურსი",
-    duration: "3 თვე",
-    path: "Python"
-  },
-  {
-    id: 6,
-    cover: "../images/courses/c6.png",
-    coursesName: "React Native",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "799 ლარი სრული კურსი",
-    duration: "6 თვე",
-    path: "React-Native_მობაილ-დეველოპმენტი"
-  },
-  {
-    id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "UI/UX დიზაინი",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "799 ლარი სრული კურსი",
-    duration: "3 თვე",
-    path: "UI-UX-დიზაინი"
-  },
-  {
-    id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "გრაფიკული დიზაინი",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "კვირაში 3 ლექცია",
-      },
-    ],
-    price: "699 ლარი სრული კურსი",
-    duration: "3 თვე",
-    path: "Graphic-Design_გრაფიკული-დიზაინი"
-  },
+  // {
+  //   id: 1,
+  //   cover: "../images/courses/c1.png",
+  //   coursesName: "Front-End დეველოპმენტი",
+  //   courTeacher: [
+  //     {
+  //       cover: "./images/back.webp",
+  //       name: "მენტორი: ლუკა ვარშანიძე",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "799 ლარი სრული კურსი",
+  //   duration: "6 თვე",
+  //   path: 'Front-End-დეველოპმენტი'
+  // },
+  // {
+  //   id: 2,
+  //   cover: "../images/courses/c2.png",
+  //   coursesName: "Back-End დეველოპმენტი",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Ram Gurung",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "699 ლარი სრული კურსი",
+  //   duration: "3 თვე",
+  //   path: "Back-End-დეველოპმენტი"
+  // },
+  // {
+  //   id: 3,
+  //   cover: "../images/courses/c3.png",
+  //   coursesName: "Javascript",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Saroj Nepal",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "699 ლარი სრული კურსი",
+  //   duration: "3 თვე",
+  //   path: "Javascript"
+  // },
+  // {
+  //   id: 4,
+  //   cover: "../images/courses/c4.png",
+  //   coursesName: "C# .Net დეველოპმენტი",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Prabin Thapa Mager",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "899 ლარი სრული კურსი",
+  //   duration: "6 თვე",
+  //   path: "C#-.Net-დეველოპმენტი"
+  // },
+  // {
+  //   id: 5,
+  //   cover: "../images/courses/c5.png",
+  //   coursesName: "Python",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Sunil Bishowkaram",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "699 ლარი სრული კურსი",
+  //   duration: "3 თვე",
+  //   path: "Python"
+  // },
+  // {
+  //   id: 6,
+  //   cover: "../images/courses/c6.png",
+  //   coursesName: "React Native",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Sunil Bishowkaram",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "799 ლარი სრული კურსი",
+  //   duration: "6 თვე",
+  //   path: "React-Native_მობაილ-დეველოპმენტი"
+  // },
+  // {
+  //   id: 7,
+  //   cover: "../images/courses/c7.png",
+  //   coursesName: "UI/UX დიზაინი",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Price",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "799 ლარი სრული კურსი",
+  //   duration: "3 თვე",
+  //   path: "UI-UX-დიზაინი"
+  // },
+  // {
+  //   id: 8,
+  //   cover: "../images/courses/c8.png",
+  //   coursesName: "გრაფიკული დიზაინი",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Petter",
+  //       totalTime: "კვირაში 3 ლექცია",
+  //     },
+  //   ],
+  //   price: "699 ლარი სრული კურსი",
+  //   duration: "3 თვე",
+  //   path: "Graphic-Design_გრაფიკული-დიზაინი"
+  // },
   // {
   //   id: 9,
   //   cover: "../images/courses/c9.png",

@@ -20,16 +20,51 @@
   margin: 0;
   padding: 0;
 }
+
+.container .row h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1068px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: right;
+    padding-top: 30%;
+    height: 80vh;
+    max-width: 1068px;
+    width: 100%;
+  }
+  .hero .row {
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;
   }
   .hero {
     background-position: right;
-    padding-top: 50%;
+    padding-top: 40%;
     height: 80vh;
+    max-width: 768px;
+    width: 100%;
   }
   .hero .row {
     width: 100%;
   }
+
+  .container .row h1 {
+    font-size: 25px;
+    margin: 20px 0;
+    /* color: #1eb2ae; */
+    text-transform: capitalize;
+  }
 }
+
+

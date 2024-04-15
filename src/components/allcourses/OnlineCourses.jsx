@@ -9,10 +9,8 @@ const OnlineCourses = () => {
     <>
       <section className="online">
         <div className="container">
-          <Heading
-            subtitle="კურსები"
-            title="აღმოაჩინე შენი კარიერის განვითარების საუკეთესო გზა"
-          />
+          <p>კურსები</p>
+          <h2>აღმოაჩინე შენი კარიერის განვითარების საუკეთესო გზა</h2>
           <div className="content grid3">
             {online.map((val) => (
               <Link to={`/course/${val.id}/${val.path}`}>
